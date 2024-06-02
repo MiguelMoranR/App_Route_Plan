@@ -6,8 +6,8 @@ import uan.edu.co.app_route_plan.R
 
 
 class MainActivity : AppCompatActivity() {
-    override fun onCreate(saveInstanceState: Bundle?) {
-        super.onCreate(saveInstanceState)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
         setContentView(R.layout.activitymain)
     }
 
