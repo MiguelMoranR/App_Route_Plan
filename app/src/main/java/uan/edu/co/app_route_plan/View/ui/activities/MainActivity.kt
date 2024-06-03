@@ -5,7 +5,6 @@ import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import uan.edu.co.app_route_plan.databinding.ActivitymainBinding
 
-
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivitymainBinding
     lateinit var handler: Handler
@@ -13,6 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivitymainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.animationView.playAnimation()
+
 
     }
 
